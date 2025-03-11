@@ -17,7 +17,6 @@ document.getElementById('input-search').addEventListener('keyup', (e) => {
     if (isEnterKeyPressed) {
         if(validateEmptyImput(userName)) return;
         getUserData(userName);
-        getUserProfile(userName);
     }
 })
 
